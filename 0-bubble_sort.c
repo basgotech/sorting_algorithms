@@ -14,7 +14,6 @@ if (array == NULL || size < 2)
 {
 return;
 }
-		
 for (i = 0; i < size - 1; i++)
 {
 swapper = 0;
