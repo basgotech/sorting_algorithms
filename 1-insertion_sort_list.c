@@ -1,5 +1,7 @@
 #include "sort.h"
 
+void node_swapper(listint_t **header, listint_t **fnode, listint_t *snode);
+
 /**
  * insertion_sort_list - Sorts a doubly linked list of int
  * @list: A pointer to the head of a doubly-linked list of int.
