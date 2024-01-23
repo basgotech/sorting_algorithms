@@ -3,15 +3,19 @@
 
 
 /**
- * merge_sort - Sorts an array of integers in ascending order using the merge sort algorithm.
+ * merge_sort - Sorts an array of integers in ascending
+ * order using the merge sort algorithm.
  * @array: The array to be sorted.
  * @size: The size of the array.
  *
  * Description:
- * - This function sorts the given array using the top-down merge sort algorithm.
- * - It divides the array into two halves, sorts each half recursively, and then merges them.
+ * - This function sorts the given array using
+ * the top-down merge sort algorithm.
+ * - It divides the array into two halves,
+ * sorts each half recursively, and then merges them.
  * - The merging is done using the merge_div_arr function.
- * - The time complexity of this function is O(n log n), where n is the size of the array.
+ * - The time complexity of this function is O(n log n),
+ * where n is the size of the array.
  * - Uses a temporary buffer array (buffer_getter) for merging.
  * - This function serves as the entry point for the merge sort algorithm.
  */
