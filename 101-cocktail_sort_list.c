@@ -2,7 +2,7 @@
 #include "helper_functionII.h"
 
 /**
- * cocktail_sort_list - Sorts a doubly linked
+ * cocktail_sort_list - Sorts a doubly linked.
  * list of integers in ascending order
  *  using the Cocktail Shaker sort algorithm.
  * @list: A pointer to the head of the doubly linked list.
