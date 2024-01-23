@@ -1,5 +1,5 @@
 #include "sort.h"
-#include "helper_functon.h"
+#include "helper_function.h"
 
 /**
  * selection_sort - Sort an array of integers in ascending order.
@@ -23,7 +23,7 @@ lowwer = (array[l] < *lowwer) ? (array + l) : lowwer;
 }
 if ((array + k) != lowwer)
 {
-swap_ints(array + k, lowwer);
+swapper(array + k, lowwer);
 print_array(array, size);
 }
 }
