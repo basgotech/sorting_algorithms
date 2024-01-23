@@ -157,3 +157,33 @@ max_get = array[k];
 }
 return (max_get);
 }
+
+
+/**
+ * @brief Helper function to build a binary heap.
+ * @param array The array to be heapified.
+ * @param arr_size The size of the array.
+ * @param row_base The index of the current row's first element in the array.
+ * @param top_node The index of the current top node in the heap.
+ */
+void com_binery_hipper(int *array, size_t arr_size, size_t row_base, size_t top_node)
+{
+size_t first, end, hug;
+first = 2 * top_node + 1;
+end = 2 * top_node + 2;
+hug = top_node;
+if (first < row_base && array[first] > array[hug])
+{
+hug = first;
+}
+if (end < row_base && array[end] > array[hug])
+{
+hug = end;
+}
+if (hug != top_node)
+{
+swapper(array + top_node, array + hug);
+print_array(array, arr_size);
+com_binery_hipper(array, arr_size, row_base, hug);
+}
+}
