@@ -11,7 +11,7 @@
 /**
  * enum bool - Enumeration of Boolean values.
  * @false: Equals to 0.
- * @true: Equals to 1.
+ * @true: Equals to 1
  */
 typedef enum bool
 {
@@ -24,7 +24,7 @@ typedef enum bool
  *
  * @n: Integer stored in the node
  * @prev: Pointer to the previous element of the list
- * @next: Pointer to the next element of the list
+ * @next: Pointer to the next element of the list.
  */
 typedef struct listint_s
 {
