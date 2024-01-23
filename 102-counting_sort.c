@@ -9,17 +9,7 @@
 
 void counting_sort(int *array, size_t size)
 {
-int *counter, *sort_true, get_max, k;
-if (array == NULL || size < 2)
-{
-return;
-}
-get_max = max_getter(array, size);
-sort_true = malloc(sizeof(int) * size);
-if (sort_true == NULL)
-{
-return;
-}
+#include "counting_sort_holder.h"
 counter = malloc(sizeof(int) * (get_max + 1));
 if (counter == NULL)
 {
