@@ -64,3 +64,23 @@ lomuto_algo_sort(array, size, left, p - 1);
 lomuto_algo_sort(array, size, p + 1, right);
 }
 }
+
+/**
+ * max_getter - Get the maximum value in an array of integers.
+ * @array: An array of integers.
+ * @get_size: The size of the array.
+ * Return: The maximum integer in the array.
+ */
+
+int max_getter(int *array, int get_size)
+{
+int max_get, k;
+for (max_get = array[0], k = 1; k < get_size; k++)
+{
+if (array[k] > max_get)
+{
+max_get = array[k];
+}
+}
+return (max_get);
+}
