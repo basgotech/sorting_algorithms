@@ -1,6 +1,5 @@
 #include "sort.h"
-#include "helper_functionII.h"
-
+#include "helper_function.h"
 
 /**
  * merge_sort - Sorts an array of integers in ascending
