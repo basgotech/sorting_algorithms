@@ -1,7 +1,7 @@
 /**
- * node_head_swapper - Swap a node in a listint_t doubly-linked list
+ * node_head_swapper - Swap a node in a listint_t doubly-linked list.
  * @list: A pointer to the head of a doubly-linked list of integers.
- * @tail: A pointer to the tail of the doubly-linked list.
+ * @tail: A pointer to the tail of the doubly-linked list
  * @shaker_algo: A pointer to the current swapping node of the cocktail shaker algorithm.
  */
 void node_head_swapper(listint_t **list, listint_t **tail, listint_t **shaker_algo)
