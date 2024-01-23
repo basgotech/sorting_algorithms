@@ -1,1 +1,1 @@
-sorting algorithm
+Sorting Algorithm.
