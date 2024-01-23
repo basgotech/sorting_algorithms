@@ -2,7 +2,7 @@
 #include "helper_function.h"
 
 /**
- * quick_sort - Sort an proccessed array 
+ * quick_sort - Sort an procceees array
  * @array: An array of integers.
  * @size: The size of the array.
  */
