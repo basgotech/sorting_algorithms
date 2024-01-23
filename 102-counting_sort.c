@@ -2,7 +2,7 @@
 #include "helper_function.h"
 
 /**
- * counting_sort - Sort an array of integers in ascending order
+ * counting_sort - Sort an array of integers in ascending order.
  * @array: An array of integers.
  * @size: The size of the array.
  */
