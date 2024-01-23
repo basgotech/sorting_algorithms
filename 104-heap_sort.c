@@ -2,7 +2,7 @@
 #include "helper_function.h"
 
 /**
- * heap_sort - Sorts an array of integers in ascending
+ * heap_sort - Sorts an array of integers in ascending.
  * order using the Heap sort algorithm.
  * @array: The array of integers to be sorted.
  * @size: The size of the array.
